@@ -1,6 +1,6 @@
-# Cheerleading
+<img src="public/logo.png" alt="CheerleadIn Logo" width="300"/>
 
-<img src="public/logo.png" alt="CheerleadIn Logo"/>
+# CheerleadIn
 
 CheerleadIn is an AI-powered command-line interface tool that helps in constructing interesting LinkedIn posts with topics that are trending. CheerleadIn makes your life easier by using AI to generate innovative ideas and write professional posts based on the themes and templates you choose.
 
