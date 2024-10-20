@@ -15,25 +15,38 @@ CheerleadIn is an AI-powered command-line interface tool that helps in construct
 
 ## Installation
 
-To install CheerleadIn and its dependencies, follow these steps:
-
-1. Have installed on your system [Bun](https://bun.sh), v 1.1.13 or newer.
-2. Clone the repository or download the source code.
-3. Navigate into the project folder in your terminal.
-4. Install the dependencies with the command:
-
-bash
-bun install
-
-````
-
-## Application
-
-To run CheerleadIn navigate into the project folder and run the following:
+You can install CheerleadIn globally using npm:
 
 ```bash
-bun run src/index.ts
-````
+npm install -g cheerleadin
+```
+
+Alternatively, if you want to contribute or run it locally:
+
+1. Clone the repository or download the source code.
+2. Navigate into the project folder in your terminal.
+3. Install the dependencies with the command:
+
+```bash
+npm install
+```
+
+## Usage
+
+If you've installed CheerleadIn globally, you can run it from anywhere in your terminal:
+
+```bash
+cheerleadin
+```
+
+If you're running it locally after cloning the repository:
+
+1. Navigate to the project folder in your terminal.
+2. Run the following command:
+
+```bash
+npm start
+```
 
 Interact with the interactive activities to:
 
