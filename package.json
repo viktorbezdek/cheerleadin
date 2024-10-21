@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "AI-powered CLI tool for generating LinkedIn posts",
   "main": "dist/index.js",
+  "type": "module",
   "bin": {
     "cheerleadin": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "mkdir -p dist && bun build --target node src/index.ts > dist/index.js",
     "start": "node dist/index.js",
     "prepublishOnly": "npm run build"
   },
@@ -29,7 +30,12 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "keywords": ["linkedin", "ai", "cli", "post-generator"],
+  "keywords": [
+    "linkedin",
+    "ai",
+    "cli",
+    "post-generator"
+  ],
   "author": "",
   "license": "MIT"
 }
